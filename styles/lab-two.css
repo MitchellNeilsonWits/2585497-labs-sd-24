@@ -47,7 +47,7 @@
     padding-bottom: 10px;
 }
 
-.card {
+.service_card {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -76,7 +76,7 @@ p {
     object-fit: cover;
 }
 
-#services, #about {
+#services, #about_card {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -87,6 +87,6 @@ p {
     flex-direction: row;
 }
 
-#service_cards .card {
+.service_card {
     border: 1px solid gray;
 }
